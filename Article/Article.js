@@ -30,8 +30,10 @@ class Article {
 
 */
 
+
 let articles = document.querySelectorAll('.article');
 articles.forEach(function(currentArticle){
   return new Article(currentArticle);
   
 })
+
