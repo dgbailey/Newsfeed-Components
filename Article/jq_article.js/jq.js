@@ -9,8 +9,11 @@ $( "#ani" ).click(function() {
 });
   
 
-$('#m').click(function(){
-    $('#m').animate({
-     width: '500px'
-    }, 1000)
+$('#mb').click(function(){
+    $('#m').toggle(
+        "slide");
 });
+
+$('body').click(function(){
+    $('#m').removeClass('menu--open')});
+        
